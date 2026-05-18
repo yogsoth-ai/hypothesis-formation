@@ -1,0 +1,3 @@
+hypothesis-formation
+
+Goal-Driven Hypothesis & Research Question Formation Engine — transforms upstream gaps and insights into testable hypotheses and precise research questions via three campaigns: gap prioritization, hypothesis formulation, and research question formation.
