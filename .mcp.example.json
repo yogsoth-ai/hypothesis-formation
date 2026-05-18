@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "brave-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@anthropic-ai/brave-search-mcp"],
+      "env": {
+        "BRAVE_API_KEY": "<your-brave-api-key>"
+      }
+    },
+    "apify": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@anthropic-ai/apify-mcp"],
+      "env": {
+        "APIFY_TOKEN": "<your-apify-token>"
+      }
+    },
+    "alphaxiv": {
+      "type": "sse",
+      "url": "https://mcp.alphaxiv.org"
+    },
+    "semantic-scholar": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@yogsoth-ai/semantic-scholar-mcp"],
+      "env": {
+        "SS_API_KEY": "<your-semantic-scholar-api-key-or-remove-this-line>"
+      }
+    }
+  }
+}
