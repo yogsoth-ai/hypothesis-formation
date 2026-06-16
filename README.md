@@ -9,6 +9,8 @@
 
 *Goal-Driven Hypothesis & Research Question Formation Engine for Academic Research*
 
+> 🧭 **Part of the [De-Anthropocentric Research Engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine).** This repository is one of nine composable research packages that make up DARE — the full autonomous research-orchestration system. DARE bundles this package together with the others into a single self-contained clone, unified under one orchestrator. To use these skills as intended — with the spec-driven orchestrator and cross-package routing — clone the [main repository](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) rather than this repo alone.
+
 **Hypothesis Formation transforms upstream gaps and insights into testable hypotheses and precise research questions. You provide prioritized gaps — it ranks them, derives hypotheses with falsifiability criteria, and formulates framework-guided research questions with scope, success criteria, and sub-question decomposition. Three autonomous campaigns, each with quantitative budget enforcement.**
 
 ---
@@ -163,4 +165,8 @@ git clone https://github.com/yogsoth-ai/subagent-spawning.git
 
 ## 📄 License
 
-Apache-2.0
+[Apache-2.0](LICENSE)
+
+---
+
+*A component of the [De-Anthropocentric Research Engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine), part of the [Yogsoth AI](https://github.com/yogsoth-ai) ecosystem. Built by [Pthahnix](https://github.com/Pthahnix).*
